@@ -140,6 +140,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pumpkin_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7129618346194545963, guid: 2efd17ea6e088e4439727b6932594ef7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Citrouille
+      objectReference: {fileID: 0}
     - target: {fileID: 7618593790986090385, guid: 2efd17ea6e088e4439727b6932594ef7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -607,7 +612,7 @@ PrefabInstance:
     - target: {fileID: 4324169929163213898, guid: fe6bb0e66688f734a9e4cc5bfb502051,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1520882
+      value: -1.984
       objectReference: {fileID: 0}
     - target: {fileID: 4324169929163213898, guid: fe6bb0e66688f734a9e4cc5bfb502051,
         type: 3}
@@ -617,7 +622,7 @@ PrefabInstance:
     - target: {fileID: 4324169929163213898, guid: fe6bb0e66688f734a9e4cc5bfb502051,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.059929
+      value: -1.923
       objectReference: {fileID: 0}
     - target: {fileID: 4324169929163213898, guid: fe6bb0e66688f734a9e4cc5bfb502051,
         type: 3}
@@ -657,7 +662,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3983813268400723696, guid: fe6bb0e66688f734a9e4cc5bfb502051,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1337904877}
   m_SourcePrefab: {fileID: 100100000, guid: fe6bb0e66688f734a9e4cc5bfb502051, type: 3}
 --- !u!1 &359087357
 GameObject:
@@ -1002,7 +1011,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8270855663187062767, guid: 1392f805216c47742996d4742c80721c,
+  m_ModelPrefab: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b,
     type: 3}
   m_ModelParent: {fileID: 1236903252}
   m_Model: {fileID: 0}
@@ -1342,6 +1351,25 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!1 &1337904872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3983813268400723696, guid: fe6bb0e66688f734a9e4cc5bfb502051,
+    type: 3}
+  m_PrefabInstance: {fileID: 207160294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1337904877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337904872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707bd95fb05b4b7469b5e26cb292b8b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _citrouille: {fileID: 158986091}
 --- !u!1 &1672656968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1431,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 3475118261464492563, guid: 9f3369e30fbd31f4bb596b1a99babe83,
+  m_ModelPrefab: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364,
     type: 3}
   m_ModelParent: {fileID: 1672656969}
   m_Model: {fileID: 0}
